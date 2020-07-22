@@ -3,8 +3,8 @@ import ReactCrop from "react-image-crop";
 import "react-image-crop/dist/ReactCrop.css";
 export default function CropDemo(props: { src: string }) {
   const [crop, setCrop] = useState<ReactCrop.Crop>({
-    width: 120,
-    height: 120,
+    width: 250,
+    height: 250,
   });
   const { src } = props;
 
